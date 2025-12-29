@@ -1,8 +1,7 @@
 # Random-Implementation-of-Conway-s-Game-of-Life
 Random Implementation and Experiments with Conway's Game of Life
 
-## The Math Behind It
-If we treat the grid as a matrix $C$ where $C_{i,j} \in \{0, 1\}$ represents the state of a cell (0 = dead, 1 = alive), and let $N_{i,j}$ be the sum of the 8 neighbors for that cell:
+If we treat the grid as a matrix $C$ where $C_{i,j} \in \{0, 1\}$ represents the state of a cell (0 = dead, 1 = alive), and let $N_{i,j}$ be the sum of the 8 neighbours for that cell:
 
 $$
 N_{i,j} = \sum_{x=-1}^{1} \sum_{y=-1}^{1} C_{i+x, j+y} - C_{i,j}
