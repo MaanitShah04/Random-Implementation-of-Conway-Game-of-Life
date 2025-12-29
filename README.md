@@ -19,4 +19,4 @@ C_{i,j}^{(t+1)} =
 $$
 
 In the code, this is vectorised using NumPy boolean masks to update the whole grid at once:
-`New State = (Neighbors == 3) OR (Current State == 1 AND Neighbors == 2)`
+`New State = (Neighbours == 3) OR (Current State == 1 AND Neighbours == 2)`
